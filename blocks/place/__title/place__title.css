@@ -1,0 +1,13 @@
+.place__title {
+  max-width: 460px;
+  max-height: 152px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  grid-column: 1/auto;
+  grid-row: 1/auto;
+  margin: 0;
+  margin-bottom: 48px;
+}
