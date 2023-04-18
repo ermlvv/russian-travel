@@ -6,3 +6,33 @@
   align-self: flex-end;
   margin-bottom: 48px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .place__website {
+    min-width: 288px;
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    min-width: 288px;
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0 auto;
+  }
+}

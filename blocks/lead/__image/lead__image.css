@@ -2,5 +2,31 @@
   max-width: 984px;
   max-height: 615px;
   margin: 64px auto 8px;
+  object-fit: cover;
   display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    margin: 56px auto 8px;
+    max-height: 580px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    margin-top: 56px;
+    max-height: 480px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    margin-top: 40px;
+    max-height: 200px;
+    width: 100%;
+  }
 }

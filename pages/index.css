@@ -1,12 +1,15 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../vendor/fonts/inter.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/body/body.css);
 
 /* Начало Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_underlined/header__lang-link_underlined.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 /* Конец header */
 
 /* Начало lead */
@@ -22,7 +25,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_decoration/intro__list_decoration_light.css);
+@import url(../blocks/intro/__list/_decoration/intro__list_light.css);
 /* Конец intro */
 
 /* Начало photo-grid */
