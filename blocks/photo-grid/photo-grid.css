@@ -6,6 +6,7 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 284px));
   grid-template-rows: repeat(auto-fit, 1fr);
   justify-content: center;
+  grid-auto-flow: dense;
 }
 
 @media screen and (max-width: 1024px) {

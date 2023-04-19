@@ -28,11 +28,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .place__website {
     min-width: 288px;
     grid-column: 1;
     grid-row: 2;
-    margin: 0 auto;
   }
-}
+} */
