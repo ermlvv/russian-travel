@@ -1,7 +1,6 @@
 .cover {
   margin: 0 auto 92px;
   max-width: calc(1280px - 96px);
-  min-height: 740px;
   position: relative;
 }
 

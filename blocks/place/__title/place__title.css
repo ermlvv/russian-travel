@@ -1,6 +1,5 @@
 .place__title {
   max-width: 460px;
-  max-height: 152px;
   font-size: 72px;
   line-height: 76px;
   grid-column: 1/auto;
@@ -12,7 +11,6 @@
 @media screen and (max-width: 1024px) {
   .place__title {
     max-width: 440px;
-    max-height: 152px;
   }
 }
 
@@ -37,9 +35,8 @@
     grid-column: 1;
     grid-row: 1;
     min-width: 288px;
-    max-height: 35px;
     font-size: 32px;
-    line-height: 163%;
+    line-height: 35px;
     margin: 0 auto;
   }
 }
