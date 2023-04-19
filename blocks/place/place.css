@@ -23,9 +23,6 @@
     column-gap: 28px;
   }
 
-  .place:nth-child(4) {
-    margin-bottom: 72px;
-  }
   .place:last-child {
     margin-bottom: 90px;
   }
